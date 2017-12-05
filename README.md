@@ -65,7 +65,7 @@ Hints:
 If this repo has its origin master repo at github and githup page is configured
 to build from 'master' branch open this URL:
 
- https://USER.github.io/REPO/
+ https://theno.github.io/presi-ct-deployment
 
 
 ## Create PDF
@@ -81,7 +81,7 @@ cd ~/bin/decktape/active && \
 
 Or just print the `slides.md` rendered by github into a PDF:
 
-https://github.com/USER/REPO/blob/master/slides.md
+https://github.com/theno/presi-ct-deployment/blob/master/slides.md
 
 
 ## Update reveal.js Codebase
