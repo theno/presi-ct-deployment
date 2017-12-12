@@ -29,6 +29,15 @@ created by [theno](https://github.com/theno) | 2017-12-05 | [online][1] | [src][
  * Google kontrolliert das Deployment
  * Google dominiert das Deployment
 
+----
+
+# Projekte, die auf CT aufbauen:
+
+* crt.sh "search" ausgesprochen \cite{csh} (github-repo: \cite{csgr}
+* CT-Monitoring Tool von Facebook \cite{fctm}, Tool eingeführt per Blog-Eintrag: \cite{ictmt}
+
+* certlint \cite{pbctl}, enthält das Tool cablint \cite{pbcal}
+
 
 ----  ----
 
