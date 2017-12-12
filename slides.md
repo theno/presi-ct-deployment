@@ -16,6 +16,19 @@ created by [theno](https://github.com/theno) | 2017-12-05 | [online][1] | [src][
 [5]: http://www.fabfile.org/
 [6]: https://github.com/theno/fabsetup
 
+----  ----
+
+# TODO:
+
+* Screenshot nicht CT-akzeptiertes EV-Zertifikat
+
+# Diversität
+
+* Dominanz von Google
+ * Google dominiert Entwicklung von CT
+ * Google kontrolliert das Deployment
+ * Google dominiert das Deployment
+
 
 ----  ----
 
