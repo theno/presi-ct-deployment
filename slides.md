@@ -98,6 +98,14 @@ Log works correctly?
 
 ----
 
+## Chromium / Chrome
+
+* kein Auditor
+* verifiziert SCTs
+* mindestens zwei verschiedene CT-Log-Operatoren
+
+----
+
 ## Zertifikate Veröffentlichen
 
 ----
@@ -137,14 +145,6 @@ Log works correctly?
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
 ![](img-epgz/issue_certificate_sct_ocsp-stapling.svg)
-
-----
-
-## Chromium / Chrome
-
-* kein Auditor
-* verifiziert SCTs
-* mindestens zwei verschiedene CT-Log-Operatoren
 
 ----
 
