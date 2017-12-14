@@ -2,7 +2,8 @@
 
 ## CT-Unterstützung von Webservern
 
-Diese Präsentation zeigt die Ergebnisse der Untersuchung von der Verwendung von Certificate Transparency bei Webservern.
+Diese Präsentation zeigt die Ergebnisse der Untersuchung von der Unterstützung
+von Certificate Transparency (CT) bei Webservern.
 
 
 ## Technical Details
