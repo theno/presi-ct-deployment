@@ -7,14 +7,19 @@
 
 [Theodor Nolte](https://github.com/theno) | 2017-12-14 | [online][1] | [src][2]
 
+__[Ausarbeitung][3]__
+
 [1]: https://theno.github.io/presi-ct-deployment
 [2]: https://github.com/theno/presi-ct-deployment
+[3]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
 
 ----  ----
 
 # Grundlagen
 
 ----
+
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
 ## Web-PKI
 
@@ -51,6 +56,8 @@
 
 ----
 
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
+
 ### Idee: Öffentliche Kontrolle
 
 * Alle Zertifikate werden in CT-Logs veröffentlicht
@@ -85,6 +92,8 @@ Certificate published?
 ![](img-ep/certificate_transparency_merkle_tree_audit_proof_mth.svg)
 
 ----
+
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
 ### Merkle Consistency Proof
 
@@ -121,6 +130,8 @@ Log works correctly?
 ![](img-epgz/issue_certificate_classic_no_log.svg)
 
 ----
+
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
 ### Zertifikat ausstellen und verwenden
 
@@ -383,6 +394,8 @@ Limitierungen:
 ![](img-svg/2017-09-28/stackplot-certificate-ev-with-scts.svg)
 
 ----
+
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
 ## SCTs by CT-Log
 
