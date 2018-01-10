@@ -25,9 +25,6 @@
 
 ## Web-PKI
 
-* CA-Browser-Forum
-* CAB-Requirements
-
 ----
 
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
@@ -42,7 +39,20 @@
 
 ----
 
+## Web-PKI
+
+* CA-Browser-Forum
+* CAB-Requirements
+
+----
+
 ## Certificate Transparency (CT)
+
+* [RFC-6962](https://tools.ietf.org/html/rfc6962)
+
+* Chromium / Chrome:
+  * Verbindlich für EV-Zertifikate seit: [2015-01-01](https://a77db9aa-a-7b23c8ea-s-sites.googlegroups.com/a/chromium.org/dev/Home/chromium-security/root-ca-policy/CTPolicyMay2016edition.pdf?attachauth=ANoY7cp2dlvPbgZ6YD-YTWUA_l1pDYHIewPwTcvgTz70Ho16dpRjebQKqYNfTqrxBkxE4m0Dt_Hbr8K2MzSGtrgxBUFr5A3-tupukGUVDwjhATVRpkpIhlrzD1xeejeA2es-NJzbT4AZvk1WF_07TZTlXoWm7zGqGFP5d30kIMWrqyBpFES9LhNL_wx0juIUlVWiG5dqpFGKL8jF2GFW9dXoaHhEiL2zHN56UVO-ka5gn1cO_T94oJjn10LAg7eumyQkM_rp_8Zmx7_VWWO-_1q9-tBc8Xf7Xw%3D%3D&attredirects=0)
+  * Verbindlich für alle Webserver-Zertifikate ab: [2018-04-01](https://groups.google.com/a/chromium.org/forum/#!msg/ct-policy/sz_3W_xKBNY/6jq2ghJXBAAJ)
 
 ----
 
@@ -471,7 +481,7 @@ Limitierungen:
 ### *Thank You for Your attention!*
 <!-- .element: class="no-toc-progress" -->
 
-![](img/alster.jpg)
+![](img/bird.jpg)
 
 ---
 
