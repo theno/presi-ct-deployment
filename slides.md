@@ -5,15 +5,16 @@
 
 ## CT-Unterstützung von Webservern
 
-[Theodor Nolte](https://github.com/theno) | 2018-01-10 | [online][1] | [1page][2] | [src][3]
+[Theodor Nolte](https://github.com/theno) | 2018-01-10 | [online][1] | [1page][2] | [src][3] | [pdf][4]
 
-[Abstract][4] | __[Ausarbeitung][5]__
+[Abstract][5] | __[Ausarbeitung][6]__
 
 [1]: https://theno.github.io/presi-ct-deployment
 [2]: https://github.com/theno/presi-ct-deployment/blob/master/slides.md
 [3]: https://github.com/theno/presi-ct-deployment
-[4]: https://inet.haw-hamburg.de/events/inet-seminar/theodor-nolte-certificate-transparency
-[5]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
+[4]: https://github.com/theno/presi-ct-deployment/blob/master/presi-ct-deployment.pdf
+[5]: https://inet.haw-hamburg.de/events/inet-seminar/theodor-nolte-certificate-transparency
+[6]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
 
 ----  ----
 
@@ -461,17 +462,25 @@ Limitierungen:
 
 ----
 
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
+
 ## References
 
 * RFC-6962: https://tools.ietf.org/html/rfc6962
 
 * CT-"Homepage": https://www.certificate-transparency.org/
-  * Known CT-Logs: https://www.certificate-transparency.org/known-logs
-  * Open-Source Tools, Libs: https://www.certificate-transparency.org/libs
+  * Known CT-Logs: [./known-logs](https://www.certificate-transparency.org/known-logs)
+  * Open-Source Tools, Libs: [./libs](https://www.certificate-transparency.org/libs)
 
 * CT in Chromium: https://www.chromium.org/Home/chromium-security/certificate-transparency
 
+---
+
 * ctutlz: https://github.com/theno/ctutlz
+
+* openssl-examples: https://github.com/theno/openssl-examples
+
+* pyopenssl-examples: https://github.com/theno/pyopenssl-examples
 
 
 ----  ----
