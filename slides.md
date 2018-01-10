@@ -32,18 +32,6 @@
 
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
-![](img-epgz/web-pki-0.svg)
-
-----
-
-<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
-
-![](img-epgz/web-pki-1.svg)
-
-----
-
-<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
-
 ![](img-epgz/web-pki-2.svg)
 
 ----
@@ -465,6 +453,14 @@ Limitierungen:
 
 ## References
 
+* RFC-6962: https://tools.ietf.org/html/rfc6962
+
+* CT-"Homepage": https://www.certificate-transparency.org/
+  * Known CT-Logs: https://www.certificate-transparency.org/known-logs
+  * Open-Source Tools, Libs: https://www.certificate-transparency.org/libs
+
+* CT in Chromium: https://www.chromium.org/Home/chromium-security/certificate-transparency
+
 * ctutlz: https://github.com/theno/ctutlz
 
 
@@ -475,7 +471,7 @@ Limitierungen:
 ### *Thank You for Your attention!*
 <!-- .element: class="no-toc-progress" -->
 
-![](img/bird.jpg)
+![](img/alster.jpg)
 
 ---
 
