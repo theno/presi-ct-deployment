@@ -5,13 +5,14 @@
 
 ## CT-Unterstützung von Webservern
 
-[Theodor Nolte](https://github.com/theno) | 2017-12-14 | [online][1] | [src][2]
+[Theodor Nolte](https://github.com/theno) | 2017-12-14 | [online][1] | [1page][2] | [src][3]
 
-__[Ausarbeitung][3]__
+__[Ausarbeitung][4]__
 
 [1]: https://theno.github.io/presi-ct-deployment
-[2]: https://github.com/theno/presi-ct-deployment
-[3]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
+[2]: https://github.com/theno/presi-ct-deployment/blob/master/slides.md
+[3]: https://github.com/theno/presi-ct-deployment
+[4]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
 
 ----  ----
 
@@ -438,12 +439,12 @@ Limitierungen:
 
 ## Zusammenfassung
 
-* 75 der HTTPs-Webseiten unterstützen kein CT
+* 75 % der HTTPs-Webseiten unterstützen kein CT
 * SCT by-OCSP wird praktisch nicht eingesetzt
 * Diversität verbesserungswürdig
 * Google dominiert und setzt durch:
   * Entwicklung / RFCs
-  * Deployment
+  * Deployment / Chrome
 
 ----
 
@@ -459,16 +460,22 @@ Limitierungen:
 * Abgleich: Zertifikate in CT-Logs veröffentlicht, zu TLS-Handshakes
   ohne CT-Unterstützung
 
+----
+
+## References
+
+* ctutlz: https://github.com/theno/ctutlz
+
 
 ----  ----
 
 <!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
 
-__[revealjs_template](https://theno.github.io/revealjs_template) <-- ***check this out***__
-
----
-
 ### *Thank You for Your attention!*
 <!-- .element: class="no-toc-progress" -->
 
 ![](img/bird.jpg)
+
+---
+
+__[revealjs_template](https://theno.github.io/revealjs_template) <-- ***check this out***__
