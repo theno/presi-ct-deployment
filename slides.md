@@ -5,14 +5,15 @@
 
 ## CT-Unterstützung von Webservern
 
-[Theodor Nolte](https://github.com/theno) | 2017-12-14 | [online][1] | [1page][2] | [src][3]
+[Theodor Nolte](https://github.com/theno) | 2018-01-10 | [online][1] | [1page][2] | [src][3]
 
-__[Ausarbeitung][4]__
+[Abstract][4] | __[Ausarbeitung][5]__
 
 [1]: https://theno.github.io/presi-ct-deployment
 [2]: https://github.com/theno/presi-ct-deployment/blob/master/slides.md
 [3]: https://github.com/theno/presi-ct-deployment
-[4]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
+[4]: https://inet.haw-hamburg.de/events/inet-seminar/theodor-nolte-certificate-transparency
+[5]: https://github.com/theno/presi-ct-deployment/blob/master/certificate-transparency-deployment-study.pdf
 
 ----  ----
 
@@ -310,6 +311,47 @@ Limitierungen:
 
 ----
 
+<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
+
+## Certificates with or without SCTs
+
+|                |  count  | percent |
+| :------------- | ------: | ------: |
+| all            | 1329819 |  100.00 |
+| no SCTs        |  990221 |   74.46 |
+| 1 or more SCTs |  339598 |   25.54 |
+| 1 SCT          |      53 |    0.00 |
+| 2 SCTs         |  111717 |    8.40 |
+| 3 SCTs         |  130358 |    9.80 |
+| 4 SCTs         |   63970 |    4.81 |
+| 5 or more SCTs |   33500 |    2.52 |
+
+----
+
+## Certificates with or without SCTs
+
+![](img-svg/2017-09-28/stackplot-certificate-with-or-without-scts.svg)
+
+----
+
+## Certificates with SCTs
+
+![](img-svg/2017-09-28/stackplot-certificate-with-scts.svg)
+
+----
+
+## EV-Certificates with or without SCTs
+
+![](img-svg/2017-09-28/stackplot-certificate-ev-with-or-without-scts.svg)
+
+----
+
+## EV-Certificates with SCTs
+
+![](img-svg/2017-09-28/stackplot-certificate-ev-with-scts.svg)
+
+----
+
 ## Verifications of SCTs
 
 |                           |  count  | percent |
@@ -352,47 +394,6 @@ Limitierungen:
 ## SCTs of EV-Certificates by Deliver Way
 
 ![](img-svg/2017-09-28/stackplot-sct-by-deliver-way-ev.svg)
-
-----
-
-<!-- .slide: data-state="no-toc-progress" --> <!-- don't show toc progress bar on this slide -->
-
-## Certificates with or without SCTs
-
-|                |  count  | percent |
-| :------------- | ------: | ------: |
-| all            | 1329819 |  100.00 |
-| no SCTs        |  990221 |   74.46 |
-| 1 or more SCTs |  339598 |   25.54 |
-| 1 SCT          |      53 |    0.00 |
-| 2 SCTs         |  111717 |    8.40 |
-| 3 SCTs         |  130358 |    9.80 |
-| 4 SCTs         |   63970 |    4.81 |
-| 5 or more SCTs |   33500 |    2.52 |
-
-----
-
-## Certificates with or without SCTs
-
-![](img-svg/2017-09-28/stackplot-certificate-with-or-without-scts.svg)
-
-----
-
-## Certificates with SCTs
-
-![](img-svg/2017-09-28/stackplot-certificate-with-scts.svg)
-
-----
-
-## EV-Certificates with or without SCTs
-
-![](img-svg/2017-09-28/stackplot-certificate-ev-with-or-without-scts.svg)
-
-----
-
-## EV-Certificates with SCTs
-
-![](img-svg/2017-09-28/stackplot-certificate-ev-with-scts.svg)
 
 ----
 
